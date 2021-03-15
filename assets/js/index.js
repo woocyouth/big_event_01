@@ -38,7 +38,7 @@ function getUserInfo() {
 }
 
 function render(data) {
-    console.log(data);
+    // console.log(data);
     let name = data.nickname || data.username;
     // console.log(name.toUpperCase());
     $("#welcome").text("欢迎  " + name);
