@@ -1,0 +1,19 @@
+body {
+    padding: 15px;
+    background-color: #f2f3f5;
+}
+
+.layui-card {
+    width: 80%;
+}
+
+.layui-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dialog-form,
+#dialog-form-edit {
+    padding: 30px 20px 0 0;
+}

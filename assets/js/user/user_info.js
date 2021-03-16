@@ -64,7 +64,7 @@ $(function () {
         $.ajax({
             url: '/my/userinfo',
             method: 'POST',
-            data: $(this).serialize(),
+            data: $("#form_info").serialize(),
             dataType: 'json',
             success: (res) => {
                 console.log(res);

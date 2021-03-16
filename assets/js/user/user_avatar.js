@@ -71,7 +71,9 @@ $(window).on("load", function () {
                         icon: 5
                     });
                 }
-                layui.layer.msg("更换头像成功！");
+                layui.layer.msg("更换头像成功！", {
+                    icon: 6
+                });
                 window.parent.getUserInfo();
             }
         })
